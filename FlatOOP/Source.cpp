@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<string>
 #include<conio.h>
 
@@ -135,10 +135,10 @@ void Flat::set_storey(int storey)
 }
 void Flat::print() const
 {
-	cout << square << " ìåòðîâ êâ. ïëîùàäü êâàðòèðû " << endl;
-	cout << price << " ìëí. ðóáëåé ñòîèìîñòü êâàðòèðû. " << endl;
-	cout << countRooms << " êîëëè÷åñòâî êîìíàò â êâàðòèðå. " << endl;
-	cout << storey << " ýòàæ íà êîòîðîì íàõîäèòñÿ êâàðòèðà. " << endl;
+	cout << square << " Ð¼ÐµÑ‚Ñ€Ð¾Ð² ÐºÐ². Ð¿Ð»Ð¾Ñ‰Ð°Ð´ÑŒ ÐºÐ²Ð°Ñ€Ñ‚Ð¸Ñ€Ñ‹ " << endl;
+	cout << price << " Ð¼Ð»Ð½. Ñ€ÑƒÐ±Ð»ÐµÐ¹ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ ÐºÐ²Ð°Ñ€Ñ‚Ð¸Ñ€Ñ‹. " << endl;
+	cout << countRooms << " ÐºÐ¾Ð»Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÐ¾Ð¼Ð½Ð°Ñ‚ Ð² ÐºÐ²Ð°Ñ€Ñ‚Ð¸Ñ€Ðµ. " << endl;
+	cout << storey << " ÑÑ‚Ð°Ð¶ Ð½Ð° ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¼ Ð½Ð°Ñ…Ð¾Ð´Ð¸Ñ‚ÑÑ ÐºÐ²Ð°Ñ€Ñ‚Ð¸Ñ€Ð°. " << endl;
 }
 int main()
 {
